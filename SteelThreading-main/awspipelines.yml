@@ -3,6 +3,11 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
+env:
+  variables:
+    SONAR_LOGIN: "543582c3842bd949a3c5c99397340c1b6d0f8d13"
+    SONAR_HOST: "http://20.205.106.139:9000/"
+
 trigger:
 - main
 
